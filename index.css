@@ -1,0 +1,122 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header img {
+  width: 100%;
+  height: auto; /* biar tidak blur */
+  display: block;
+}
+
+/* Navigation */
+nav {
+  background: linear-gradient(90deg, #2e86de, #00b894);
+  padding: 15px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li img {
+  height: 70px;   /* tombol lebih besar */
+  width: auto;
+  transition: transform 0.2s ease;
+}
+
+nav ul li img:hover {
+  transform: scale(1.15); /* efek hover */
+}
+
+/* Main Content */
+main {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  color: #2e86de;
+  border-bottom: 3px solid #00b894;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #2e86de;
+  color: #fff;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 30%;
+  height: auto; /* biar tidak blur */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #2e86de;
+  color: #fff;
+  padding: 25px;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
